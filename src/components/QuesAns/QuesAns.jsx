@@ -14,30 +14,30 @@ const QuesAns = () => {
                 </p>
             </div>
 
-//             <div>
-//                 <h4 className='text-2xl text-left'>How does useState work?</h4>
-//                 <p className='text-xl text-left py-6'>
-//                     Functional components can manage state using React's built-in useState method. When UseState is invoked, it gives an array containing two values: the value of the current state and a function to change the state. The first value is initialized using the starting state that useState gets as input.
-//                 </p>
-//             </div>
+             <div>
+                 <h4 className='text-2xl text-left'>How does useState work?</h4>
+                 <p className='text-xl text-left py-6'>
+                     Functional components can manage state using React's built-in useState method. When UseState is invoked, it gives an array containing two values: the value of the current state and a function to change the state. The first value is initialized using the starting state that useState gets as input.
+                 </p>
+             </div>
 
-//             <div>
-//                 <h4 className='text-2xl text-left'>How does React work?</h4>
-//                 <p className='text-xl text-left py-6'>
-//                     React is a JavaScript front-end toolkit that uses a virtual DOM to display and change components—reusable UI elements—quickly and efficiently. React uses props to move data between components, and the useState function manages state inside a component. When a component's state changes, React instantly updates the virtual DOM and creates a new rendering of the component.
-//                 </p>
-//             </div>
+             <div>
+                 <h4 className='text-2xl text-left'>How does React work?</h4>
+                 <p className='text-xl text-left py-6'>
+                     React is a JavaScript front-end toolkit that uses a virtual DOM to display and change components—reusable UI elements—quickly and efficiently. React uses props to move data between components, and the useState function manages state inside a component. When a component's state changes, React instantly updates the virtual DOM and creates a new rendering of the component.
+                 </p>
+             </div>
 
-//             <div>
-//                 <h4 className='text-2xl text-left'>What does useEffect do other than loading data?</h4>
-//                 <p className='text-xl text-left py-6'>
-//                     The useEffect method in React is used to create side effects in functional components. In addition to data loading, useEffect can also be used to change the document header, react to window or document actions, as well as establish connections to APIs.
-//                 </p>
-//             </div>
+             <div>
+                 <h4 className='text-2xl text-left'>What does useEffect do other than loading data?</h4>
+                 <p className='text-xl text-left py-6'>
+                     The useEffect method in React is used to create side effects in functional components. In addition to data loading, useEffect can also be used to change the document header, react to window or document actions, as well as establish connections to APIs.
+                 </p>
+             </div>
             
-//             </div>
-//         </div>
-//     );
-// };
+             </div>
+         </div>
+    );
+};
 
-// export default QuesAns;
+export default QuesAns;
