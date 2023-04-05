@@ -1,18 +1,18 @@
-// import React from 'react';
+import React from 'react';
 
-// const QuesAns = () => {
-//     return (
-//         <div className='py-12'>
-//             <h2 className='text-4xl font-semibold'>Question ans Answer</h2>
-//             <div className='py-10'>
+const QuesAns = () => {
+    return (
+        <div className='py-12'>
+            <h2 className='text-4xl font-semibold'>Question ans Answer</h2>
+            <div className='py-10'>
 
-//             <div>
-//                 <h4 className='text-2xl text-left'>Difference between props vs state?</h4>
-//                 <p className='text-xl text-left py-6'>
-//                     In the context of React, state and props are two fundamental concepts that are used to manage data in a component-based architecture. The term "properties" is used to refer to the way in which data is moved from one component to another. Props are read-only, so the descendant component is unable to alter them. Instead, it is the primary component's duty to make any necessary updates to the attributes.
-//                     Contrarily, state refers to a component's private data that the component has the power to modify. State controls information that is specific to a component and may change over time, such as human input or the result of an API call. State changes can be made without using props by using the setState function, which re-renders the component and all of its children.
-//                 </p>
-//             </div>
+            <div>
+                <h4 className='text-2xl text-left'>Difference between props vs state?</h4>
+                <p className='text-xl text-left py-6'>
+                    In the context of React, state and props are two fundamental concepts that are used to manage data in a component-based architecture. The term "properties" is used to refer to the way in which data is moved from one component to another. Props are read-only, so the descendant component is unable to alter them. Instead, it is the primary component's duty to make any necessary updates to the attributes.
+                    Contrarily, state refers to a component's private data that the component has the power to modify. State controls information that is specific to a component and may change over time, such as human input or the result of an API call. State changes can be made without using props by using the setState function, which re-renders the component and all of its children.
+                </p>
+            </div>
 
 //             <div>
 //                 <h4 className='text-2xl text-left'>How does useState work?</h4>
